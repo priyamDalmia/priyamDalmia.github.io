@@ -1,0 +1,152 @@
+:root {
+    --primary-background:rgb(189, 189, 189);
+    --primary-text:#202020;
+}
+
+/* reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;  
+}
+
+body {
+    font-family: 'Libre Caslon Text', serif;
+    color: var(--primary-text);
+    background-image: radial-gradient(white, rgb(207, 207, 207));
+}
+
+ul {
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-text);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.3;
+}
+
+.toolbar {
+    position: fixed;
+    width: 100%;
+    height:5%;
+    display: flex;
+    top: 0px;
+    justify-content: space-between;
+    padding: 0px 2.5%;
+    background-color: #202020;
+}
+.cli-tool {
+    padding: 7px 15px;
+    font-family:'Courier New', Courier, monospace ;
+    color: rgb(236, 236, 236);
+    font-size: 18px;
+}  
+
+.contact-icons ul{
+    padding: 5px 15px;
+    display: flex;
+}
+
+.contact-icons a{
+    margin-right: 15px;
+}
+
+.mugshot{
+    display: block;
+    position: relative;
+    width: 125px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    max-width: 80%;
+    min-width: 1100px;
+    margin: auto;
+    height: 95vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    padding: 20px;
+    background-color:rgb(236, 236, 236);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 1px black;
+    border-left: 1px black;
+    border-style: solid;
+    border-radius: 2px;
+    box-shadow: 0px 25px 45px -2px rgb(231, 231, 231),
+    0px -25px 40px -1px rgb(231, 231, 231);
+}
+
+.portfolio .container {
+    height: 100%;
+    border: 0px 0px 0px 0px;
+}
+
+.profile .container{
+    margin-top: 6vh;
+}
+
+.content {
+    height:90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box-left{  
+    padding: 10% 5%;
+    font-size: 18px;
+}
+
+.box-right {
+    padding: 10% 5%;
+    color:white;
+    position: relative;
+    background-color: rgba(17, 17, 17, 0.932);
+    font-size: 26px;
+}
+
+.box-right li{ 
+    margin: 5px;
+}
+
+.main .box-right {
+    background-color: rgba(17, 17, 17, 0.932);
+    border: 1px black;
+    border-style: groove;
+}
+
+.box-right h2 {
+    text-align:right;
+}
+
+.box-right a {
+    color: white;
+}
+
+.box-right nav {
+    color: white;
+    text-align:right;
+}
+
+.portfolio .section-name{
+    border-top: 4px solid rgb(116, 115, 115);
+    border-bottom: 2px solid rgb(116, 115, 115);
+    padding: 0.4rem 0 0.2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.portfolio .child-title{
+    font-weight: bold;
+}
+
