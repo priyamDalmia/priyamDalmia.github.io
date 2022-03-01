@@ -44,7 +44,8 @@ p {
     background-color: #202020;
 }
 .cli-tool {
-    padding: 7px 15px;
+    position: relative;
+    padding: 0.75% 15px;
     font-family:'Courier New', Courier, monospace ;
     color: rgb(236, 236, 236);
     font-size: 18px;
@@ -62,8 +63,8 @@ p {
 .mugshot{
     display: block;
     position: relative;
-    width: 125px;
-    height: 150px;
+    width: 200px;
+    height: 225px;
     margin: auto;
     text-align: center;
 }
