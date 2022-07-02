@@ -118,3 +118,15 @@ a:hover {
     overflow: hidden;
 }
 
+/*page specific styles here*/
+
+.page-links {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.cover-img {
+    max-height: 100%;
+    max-width: 100%;
+}
