@@ -1,5 +1,9 @@
 # priyamDalmia.github.io
 
+This is my minimal academic protflio and blog github page. The entire site is hosted and served for free by github. Feel free to explore and fork, and have use this tempelate for your own portfolios. 
+
+The site also contains a contact form powered by [formspree](https://formspree.io/). It is easy, secure and simple to use. 
+
 
 ## Getting started
 
@@ -9,3 +13,10 @@
 4. Set site-wide configuration and create content & metadata.
 5. Upload any files (like PDFs, .zip files, etc.) to the `pages/projects/` . They will appear at https://[your GitHub username].github.io/files/example.pdf.
 6. Check status by going to the repository settings, in the “GitHub pages” section
+
+## TODO
+
+- [ ] Add support for page hit counters. 
+- [ ] Add support for Discord message forms. 
+- [ ] Add CSS code for mobile devices.
+- [ ] Add Documentation. 
